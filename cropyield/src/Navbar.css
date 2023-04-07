@@ -1,20 +1,30 @@
-nav.navbar {
+ .bar {
     background-color: black;
-    color: white;
+    color: rgb(3, 85, 11);
+    padding: 20px; /* increase the padding to make the navbar thicker */
+    height: 80px; /* adjust the height of the navbar */
   }
   
-  ul {
+ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  li {
+li {
     margin-right: 20px;
+    font-family:  'Montserrat', sans-serif;
   }
   
-  a {
+a {
     color: white;
     text-decoration: none;
   }
+
+  .navbar-bottom-text h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family:  'Montserrat', sans-serif;
+  }
+
