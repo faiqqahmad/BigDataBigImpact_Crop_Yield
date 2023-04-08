@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import './Navbar.css';
+import Settings from './Settings';
 import SettingsBox from './SettingsBox';
 import About from './About'
 import './About.css'
 import myImage from './lossVSepoch.png'
-import Settings from './Settings';
 
 function App() {
   return (
